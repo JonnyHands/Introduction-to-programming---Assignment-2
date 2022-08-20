@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ The\ student\ class\ is\ used\ to\ create\ a\ virtual\ student\ to\ be\ implemented\ into\ the\ program.\ You\ can\ check\ if\ the\ student\ has\ finished\ their\ studies,\ make\ them\ study\ and\ describe\ the\ state\ they're\ in\ here.\r\n\r\n\ @author\ Jonathan\ Hands\r\n\ @version\ 10/12/2019\r\n
+comment1.params=name\ library
+comment1.target=Student(java.lang.String,\ Library)
+comment2.params=
+comment2.target=boolean\ finishedStudies()
+comment2.text=\ \ \r\n\ (return\ true\ if\ the\ student\ does\ not\ have\ a\ TextBook\ to\ read,\ but\ can't\ borrow\ one\ because\ the\ LibraryCard\ has\ expired.\ Otherwise,\ it\ should\ return\ false.)\r\n\ @return\ boolean\ true\ or\ false\r\n
+comment3.params=
+comment3.target=void\ study()
+comment3.text=\ \ \r\n\ (causes\ the\ student\ to\ study,\ and\ has\ the\ following\ behaviour\:\r\n\ if\ the\ student\ does\ not\ currently\ have\ a\ TextBook\ then\ the\ student\ tries\ to\ borrow\ one\ from\ the\ library;\r\n\ if\ the\ student\ does\ have\ a\ book\ and\ it\ is\ not\ finished,\ then\ the\ student\ reads\ one\ chapter\ of\ the\ book;\r\n\ otherwise,\ the\ student\ has\ a\ book\ that\ is\ finished\ and\ so\ closes\ it\ and\ returns\ it\ to\ the\ library.\ (Note\ that\ after\ this\ the\ student\ should\ not\ have\ a\ book.))\r\n\ @return\ necessary\ action\ for\ student\ to\ study.\ i.e\ makes\ them\ read\r\n
+comment4.params=
+comment4.target=void\ describe()
+comment4.text=\ \ \r\n\ (prints\ out\ messages\ about\ the\ student,\ e.g.\ about\ whether\ or\ not\ they\ have\ a\ TextBook\ and\ if\ they\ do\ have\ book,\ whether\ or\ not\ the\ book\ is\ finished\ or\ they\ are\ still\ reading\ it.\ )\r\n\ @return\ description\ of\ the\ state\ the\ students\ in\ \r\n
+numComments=5

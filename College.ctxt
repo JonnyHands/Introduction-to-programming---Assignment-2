@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=College
+comment1.params=NoBooks\ NoStudents
+comment1.target=College(int,\ int)
+comment2.params=
+comment2.target=void\ describe()
+comment2.text=\ \ \r\n\ (prints\ out\ a\ simple\ description\ of\ the\ state\ of\ the\ College)\r\n\ @return\ description\ of\ the\ state\ of\ the\ College\r\n
+comment3.params=
+comment3.target=void\ nextStep()
+comment3.text=\ \ \r\n\ (or\ internal\ use\ by\ this\ class\ only\ (hence\ the\ method\ is\ private)\ which\ carries\ out\ the\ following\ actions\:\r\n\ if\ there\ are\ no\ Students\ left\ at\ the\ College,\ then\ the\ method\ should\ just\ print\ out\ a\ message\ such\ as\ "Everything\ has\ gone\ quiet."\r\n\ otherwise,\ a\ Student\ should\ be\ selected\ at\ random\ from\ those\ still\ at\ the\ College.\r\n\ If\ the\ selected\ Student\ has\ finished\ their\ studies,\ then\ they\ should\ be\ removed\ from\ the\ College\ and\ a\ suitable\ message\ printed\ out\r\n\ (e.g.\ "The\ student\ has\ graduated\ and\ left\ the\ college.");\ otherwise,\ the\ Student\ should\ study.)\r\n\ @return\ description\ of\ the\ state\ of\ college\r\n
+comment4.params=nSteps
+comment4.target=void\ runCollege(int)
+comment4.text=\ \ \r\n\ (repeatedly\ carries\ out\ the\ following\ actions\ (exactly\ nStep\ times)\:\r\n\ print\ out\ the\ number\ of\ the\ step\ being\ carried\ out\ (e.g.\ "Step\ 12")\r\n\ describe\ the\ state\ of\ the\ College\ (i.e.\ invoke\ the\ describe()\ method);\ and\r\n\ invoke\ the\ nextStep()\ method.)\r\n\ @param\ int\ nSteps\r\n\ @return\ a\ run\ through\ of\ the\ class\ in\ set\ nSteps\r\n\ etc\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\ \ \r\n\ (allow\ the\ whole\ project\ to\ be\ run\ without\ BlueJ)\r\n\ @param\ string\ of\ arguments\r\n\ @return\ run\ through\ of\ college\ with\ set\ parameters\r\n
+numComments=6
