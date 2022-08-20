@@ -1,0 +1,2 @@
+# Introduction-to-programming---Assignment-2
+Continuation of i2p assingment 1 by adding two further Java classes to the project, one called Student and one called College. In addition project has been made to 'stand-alone' (i.e. it should be possible to compile and run without the use of BlueJ); code is appropriately doccumented using javadoc conventions. Unit testing using the framework integrated into BlueJ.
